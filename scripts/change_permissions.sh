@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cp src/index.html /var/www/html/
+
 # Change ownership of the deployed files to the Nginx user and group
 chown -R nginx:nginx /var/www/html/
 
